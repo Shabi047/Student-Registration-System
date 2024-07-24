@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    background: linear-gradient(to right,red, black);
+}
+
+header{
+    text-align: center;
+    margin: 0px;
+    border: 0px;
+    background: linear-gradient(to right, red, black);
+    color: white;
+}
+
+.main-contents{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: solid 0px black;
+    background: linear-gradient(to right, red, black);
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    width: 400px;
+    border: solid 2px black;
+    border-radius: 13px;
+    padding: 10px;
+    background: linear-gradient(to right, white, grey);
+}
+
+.inp-cont{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    gap: 5px;
+    font-size: 18px;
+}
+
+.fields{
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: bisque;
+}
+
+#submit-btn{
+    width: 70px;
+    margin-top: 8px;
+    border-radius: 6px;
+    transition: all;
+    transition-duration: 200ms;
+}
+
+#submit-btn:hover{
+    background-color: red;
+    color: white;
+    scale: 1;
+}
+
+#submit-btn:active{
+    background-color: rgb(146, 0, 0);
+    color: white;
+    scale: 0.95;
+}
+
+.Records-Section{
+    background: linear-gradient(to right, white, grey);
+    height: 450px;
+    width: 650px;
+    overflow-y: auto;
+}
+
+#Records-Table{
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.del-btn:hover{
+    color: white;
+    background-color: black;
+}
+
+.edit-btn:hover{
+    color: white;
+    background-color: black;
+}
+
